@@ -1,0 +1,195 @@
+@media(max-width: 600px){
+   .container{
+    max-width: 100%;
+    margin: auto;
+    /* overflow-x: hidden; */
+    padding: 0 1rem;
+   }
+   .menu a {
+    font-size: 16px;
+    padding: 0 12px;
+   }
+    /* --------------navbar section start here------------- */
+    .logo img{
+        width: 6.5rem;
+    }
+    nav{
+       height: 100px;
+       padding: 0;
+    }
+   /* --------------hero section start here------------- */
+   header{
+      height: 120vh;
+   }
+   .hero{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+   }
+   .top{
+    /* background-color: lightblue; */
+    margin-top: 1.7rem;
+   }
+   .top img{
+    width: 21rem;
+   }
+   .down h1{
+   width: 100%;
+   font-size: 2rem;
+   text-align: center;
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   word-spacing: .5px;
+   line-height: 2.5rem;
+   }
+   .down p{
+      width: 100%;
+   }
+   
+   .input{
+    width: 10rem;
+   }
+
+   /* ---------------second section start------------------ */
+
+   #Second{
+      width: 100%;
+      height: 150vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .sec-content{
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+   }
+   .sec-boxes{
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .box{
+      width: 100%;
+      padding-bottom: 15px;
+   }
+   .box p{
+      font-size: 16px;
+   }
+
+      /* ---------------second section start------------------ */
+   #third{
+      width: 100%;
+      height: 80vh;
+   }   
+   .third-content{
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+   }
+   .third-left{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .third-right{
+      width: 100%;
+   }
+   .third-right h2{
+      width: 100%;
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      padding: 6px 0;
+   }
+   .third-right P{
+      width: 100%;
+   }
+   .third-left img{
+      width: 22rem;
+     }
+   /* ------------------four section start */
+   #four{
+      width: 100%;
+      flex-direction: column;
+      height: 100vh;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 2rem 0;
+   }
+   .four-content{
+      flex-direction: column;
+      height: 100%;
+   }
+
+   /* ---------------five section start--------------- */
+   #five{
+    max-width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+    height: 40vh;
+   }
+   .five-content{
+      width: 100%;
+   }
+   .card{
+      width: 100%;
+      height: 23rem;
+      padding: 1.5rem 1rem;
+      justify-content: space-evenly;
+      gap: 20px;
+      bottom: -26rem;
+   }
+   .card-top h2{
+      width: 100%;
+      font-size: 1.5rem;
+      word-spacing: 0;
+      margin-bottom: 1;
+   }
+   .card-bottom input{
+      width: 100%;
+      margin-bottom: 3rem;
+   }
+   .card-btn{
+      margin: 0;
+      padding: 15px 4rem;
+      width: 100%;
+   }
+
+   /* ------------footer section start-------------- */
+   #footer{
+      width: 100%;
+      height: 90vh;
+   }
+   .ftr-content{
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   .clm-1{
+      width: 100%;
+      gap: 2rem;
+   }
+   .clm-1 p{
+      display: none;
+   }
+   .clm-2{
+      gap: 1rem;
+      margin-bottom: 1.8rem;
+   }
+   .clm-3{
+      gap: 1rem;
+      margin-bottom: 1.8rem;
+   }
+   .clm-4{
+      gap: 1rem;
+      margin-bottom: 1.8;
+   }
+   .clm-5{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}

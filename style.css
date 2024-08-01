@@ -1,0 +1,411 @@
+/* Ralway font family */
+/* font-family: "Raleway", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Open sans font family */
+/* font-family: "Open Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------- CSS VARIABLE ------------------- */
+:root{
+    --text-clr: #e2e6ebe8;
+    --heading-clr: hsl(0, 0%, 100%);
+    --main-bg: hsl(217, 28%, 15%);
+    --middle-bg: #181D29;
+    --footer-bg: hsl(216, 53%, 9%);
+    --sign-up-box-bg: hsl(217, 28%, 15%);
+    --cta-btn-gradiant-1: hsl(176, 68%, 64%);
+    --cta-btn-gradiant-2: hsl(198, 60%, 50%);
+    --email-error: hsl(0, 100%, 63%); 
+}
+
+/* --------------------- RESET CODE ------------------- */
+
+.container{
+    max-width: 1240px;
+    margin: auto;
+    /* border: 2px solid white; */
+}
+.cta-btn{
+    text-decoration: none;
+    color: var(--text-clr);
+    background: linear-gradient(var(--cta-btn-gradiant-1), var(--cta-btn-gradiant-2 ));
+    padding: 15px 90px;
+    border-radius: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1.3px;
+    line-height: 1.3rem;
+    color: var(--text-clr);
+}
+/* --------------------- NAVBAR STYLING ------------------- */
+
+header{
+    width: 100%;
+    height: 160vh;
+    background-color: var(--main-bg);
+}
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu a{
+    color: var(--text-clr);
+    text-decoration: none;
+    padding: 0px 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.menu a:last-child{
+    padding: 0;
+}
+
+/* --------------------- HERO SECTION ------------------- */
+
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 3rem; */
+}
+.top img{
+    width: 32rem;
+}
+.down{
+    color: var(--text-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+}
+.down h1{
+    color: var(--heading-clr);
+    width: 55%;
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 2.5rem;
+    font-family: "Raleway", sans-serif; 
+    margin-top: 1.5rem;
+}
+.down p{
+    width: 46%;
+    text-align: center;
+    margin: 3px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1.1px;
+    line-height: 1.3rem;
+}
+
+
+
+/* --------------------- SECOND SECTION ------------------- */
+
+#Second{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--middle-bg);
+}
+.sec-content{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.sec-boxes{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box h3{
+    color: var(--heading-clr);
+    font-family: "Raleway", sans-serif; 
+    font-weight: 600;
+    margin-top: 1.7rem;
+    margin-bottom: .9rem;
+}.box p{
+    text-align: center;
+    color: var(--text-clr);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1.3px;
+    line-height: 1.3rem;
+}
+
+/* --------------------- THIRD SECTION ------------------- */
+
+#third{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--middle-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.third-left{
+    width: 50%;
+}
+.third-left img{
+    width: 30rem;
+}
+
+.third-right h2{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    color: var(--heading-clr);
+    margin-bottom: 1.5rem;
+}
+.third-right p{
+    width: 90%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1.3px;
+    line-height: 1.3rem;
+    color: var(--text-clr);
+    margin-bottom: 1.2rem;
+}
+
+.third-right a{
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 1.3px;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid hsl(176, 68%, 64%);
+}
+
+/* --------------SECTION FOUR----------------- */
+
+#four{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--middle-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four-content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.four-box{
+    width: 370px;
+    height: 200px;
+    background-color: var(--main-bg);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0px 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px rgba(14, 14, 14, 0.248);
+}
+.four-bottom{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.four-bottom img{
+    width: 2rem;
+    border-radius: 50%;
+}
+.four-bottom h4{
+    color: var(--heading-clr);
+    font-family: "Raleway", sans-serif; 
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.four-bottom p{
+    font-size: 13px;
+}
+
+/* ------------------SECTION FIVE START---------------- */
+#five{
+    width: 100%;
+    height: 40vh;
+    background-color: var(--middle-bg);
+}
+.five-content{
+    width: 100%;
+    /* height: 80%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: var(--main-bg);
+    width: 70%;
+    height: 18rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2rem 4rem;
+}
+.card h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+    color: var(--heading-clr);
+    margin-bottom: 1.7rem;
+}
+.card-bottom{
+    width: 100%;
+}
+.card-bottom input{
+    padding: 12px 25px;
+    border-radius: 50px;
+    border: none;
+    width: 50%;
+}
+
+input{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    word-spacing: 1.3px;
+    line-height: 1.3rem;
+    color: var(--heading-clr);
+    padding-left: 20px;
+}
+
+.card-btn{
+    text-decoration: none;
+    color: var(--text-clr);
+    background: linear-gradient(var(--cta-btn-gradiant-1), var(--cta-btn-gradiant-2 ));
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    /* margin-left: 20px; */
+    width: 50%;
+}
+
+#footer{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--footer-bg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 6rem;
+}
+.ftr-content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clm-1{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+}
+.clm-1 p{
+    width: 100%;
+}
+.clm-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2rem;
+}
+.clm-2 i{
+    font-size: 1.1rem;
+}
+.clm-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2rem;
+}
+.clm-4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2rem;
+}
+span i{
+    margin-right: 1.3rem;
+}
+
+.clm-5 i{
+    font-size: 2.5rem;
+    padding: 0px 5px;
+    color: var(--text-clr);
+}
